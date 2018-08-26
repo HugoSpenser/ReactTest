@@ -10,11 +10,6 @@ import {store} from "../store";
 import {get} from "../actions";
 import {TESTS} from "../constants";
 import '../css/style.css';
-import CircularProgress from "@material-ui/core/CircularProgress/CircularProgress";
-
-const style = {
-    position: 'relative',
-};
 
 class MUITableDemo extends Component {
 
